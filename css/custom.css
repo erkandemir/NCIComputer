@@ -1,0 +1,65 @@
+body {
+	font-family: ui-monospace;
+}
+
+header
+{
+	border-bottom: 1px solid #eee;
+	height: 90px;
+}
+
+.navbar {
+	font-size: 20px;
+}
+
+.navbar-collapse {
+	background-color: white;
+	z-index: 2;
+	padding: 10px;
+}
+
+.navbar .nav-link.active
+{
+	background-color: #6193cb;
+	color: white;
+}
+
+.navbar-brand img 
+{
+	width: 78px;
+}
+
+.content {
+	margin-bottom: 120px;
+}
+
+.card-img-top {
+	margin:auto;
+	width: 80%;
+}
+
+.card-title {
+	text-align: center;
+}
+
+.btn-primary {
+	background-color: #3a77ba;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  background-color: #fff;
+  border-top: 1px solid #eee;
+}
+
+.coverPhoto 
+{
+	height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
