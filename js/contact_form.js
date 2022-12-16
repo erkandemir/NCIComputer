@@ -6,4 +6,6 @@ function validateForm ()
 	if(index == 0){
 		alert('Please select a topic!');
 	}
+
+
 }

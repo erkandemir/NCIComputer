@@ -1,65 +1,509 @@
+/* Main Css (index.html and all pages) - Erkan Demir */
+
 body {
-	font-family: ui-monospace;
+    font-family: ui-monospace;
 }
 
-header
-{
-	border-bottom: 1px solid #eee;
-	height: 90px;
+header {
+    border-bottom: 1px solid #eee;
+    height: 90px;
 }
 
 .navbar {
-	font-size: 20px;
+    font-size: 20px;
 }
 
 .navbar-collapse {
-	background-color: white;
-	z-index: 2;
-	padding: 10px;
+    background-color: white;
+    z-index: 2;
+    padding: 10px;
 }
 
-.navbar .nav-link.active
-{
-	background-color: #6193cb;
-	color: white;
+.navbar .nav-link.active {
+    background-color: #6193cb;
+    color: white;
 }
 
-.navbar-brand img 
-{
-	width: 78px;
+.navbar-brand img {
+    width: 78px;
 }
 
 .content {
-	margin-bottom: 120px;
+    margin-bottom: 120px;
+    margin-top: 20px;
 }
 
 .card-img-top {
-	margin:auto;
-	width: 80%;
+    margin: auto;
+    width: 80%;
 }
 
 .card-title {
-	text-align: center;
+    text-align: center;
 }
 
 .btn-primary {
-	background-color: #3a77ba;
+    background-color: #3a77ba;
 }
 
 .footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  text-align: center;
-  background-color: #fff;
-  border-top: 1px solid #eee;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: #fff;
+    border-top: 1px solid #eee;
 }
 
-.coverPhoto 
-{
-	height: 100%;
+.coverPhoto {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Main Css ---*/
+
+
+/*contact_form css - Erkan Demir*/
+
+.contact_us_banner img {
+    height: 200px;
+}
+
+.bottom_box {
+    margin-top: 50px;
+    border: 1px solid #c6d5e5;
+    text-align: center;
+    padding: 15px;
+    height: 300px;
+}
+
+.bottom_box_title {
+    color: #6193cb;
+    border-bottom: 1px solid #eee;
+}
+
+.bottom_box_container {
+    margin-bottom: 50px;
+}
+
+.bottom_box_content {
+    padding: 15px;
+}
+
+/*contact_form.html css ---*/
+
+
+
+/* Order Form and Product_List css - Alparslan Balci */
+
+#exampleForm{
+	height:850px;
+	width:600px;
+	margin: auto;	
+}
+
+
+.gradient-custom {
+   width:500px;
+	left: 0;
+	bottom: 0;
+}
+
+
+#inputCounty{
+	margin-bottom:20px;
+	}
+	
+#eircodeInput{
+	margin-bottom:20px;
+}
+	
+#floatingTextarea2{
+	margin-bottom:30px;
+}
+
+.form-select{
+	margin-bottom:20px;
+}
+
+:root {
+  scroll-behavior: auto !important;
+}
+
+.form_title {
+	text-align: center;
+}
+
+
+h4{
+	margin-bottom:10px;
+	margin-left:10px;
+}
+
+.visaPayment{
+	margin-left:180px;
+}
+
+.label{
+	margin-left:20px;
+	
+}
+
+
+.card{
+	margin-bottom:20px;
+}
+
+
+
+.form_content {
+    background-color: #f3f3f3;
+    height: 1200px;
+    width: 700px;
+    margin: auto;
+    margin-top: 20px;
+    font-family: "Sofia", sans-serif;
+}
+
+.text-black a {
+	text-align: center;
+}
+/*Order Form and Product List css ---*/
+
+
+/*about_us.html and itemdetail.html css - Eren Kacmaz*/
+.container-fluid {
+    font-family: ui-monospace;
+    background-image: url("../images/img3.jpg");
+    background-color: white;
+    width: 100%;
+    height: 540px;
+    background-size: cover;
+
+    border: 1px solid #fff;
+}
+
+.accordion {
+    position: relative;
+    margin: 60px auto;
+    width: 80%;
+
+    margin-left: 1px;
+}
+
+[id*="open-accordion"],
+[id*="close-accordion"] {
+    background: #ffffff00;
+    line-height: 40px;
+    height: 40px;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    width: 99%;
+
+}
+
+[id*="close-accordion"] {
+    display: none;
+}
+
+.accordion a {
+    color: black;
+    font-size: 2em;
+    font-weight: normal;
+    padding-left: 2%;
+    text-decoration: none;
+    text-shadow: none;
+    margin-bottom: 30px;
+}
+
+[id*="open-accordion"]:after,
+[id*="close-accordion"]:after {
+    content: "";
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid rgba(255, 255, 255, 0.6);
+    position: absolute;
+    right: 600px;
+    top: 15px;
+    z-index: 999;
+    transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+}
+
+.target-fix {
+    display: block;
+    top: 0;
+    left: 0;
+    position: fixed;
+}
+
+.accordion-content {
+    background: #C9D9EB;
+    font-size: 1.256em;
+    opacity: 0.8;
+    height: 0;
+    margin: -1px auto 0;
+    padding: 0 2.5%;
+    position: relative;
+    overflow: hidden;
+    width: 90%;
+    transition: all 0.1s ease;
+    -webkit-transition: all 0.1s ease;
+    -moz-transition: all 0.1s ease;
+
+}
+
+.accordion span:target~.accordion-content {
+    display: block;
+    height: auto;
+    padding-bottom: 25px;
+    padding-top: 10px;
+}
+
+.accordion span:target~[id*="close-accordion"] {
+    display: block;
+}
+
+.accordion span:target~[id*="open-accordion"] {
+    display: none;
+}
+
+.accordion span:target~[id*="close-accordion"]:after {
+    border-top: 10px solid #333;
+    transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+}
+
+}
+
+.float-container {
+    border: 3px solid #fff;
+    padding: 20px;
+
+}
+
+.float-child {
+    float: left;
+    width: 50%;
+
+    height: 475px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-img-top {
+    margin-top: 0px;
+    max-width: 65%;
+}
+
+.green {
+    margin-top: -28px;
+    text-align: center;
+}
+
+.blue {
+    text-align: center;
+
+    padding: 5px;
+    font-size: 20px;
+    margin-top: 150px;
+}
+
+.img_cont {
+    text-align: center;
+}
+/*about_us.html css ---*/
+
+/*softwareupdate.html css - Abdurrahman Tufan Unal*/
+#product-form {
+  display: block;
+  max-width: 500px;
+  margin: 0 auto;
+  background: rgb(248, 249, 250);
+  padding: 40px;
+  border-radius: 10px;
+}
+#product-form button {
+  height: 30px;
+  outline: 0;
+  border-radius: 5px;
+  background-color: #0d6efd;
+  color: #fff;
+  cursor: pointer;
+  border: none;
+}
+#product-form button:hover {
+  background-color: #0f5bcc;
+}
+.select-container {
+  margin-bottom: 20px;
+}
+.select-container label {
+  padding-bottom: 10px;
+  display: inline-block;
+}
+.select-container select {
+  width: 100%;
+  height: 30px;
+  border: 1px solid #333;
+  border-radius: 5px;
+}
+.select-container option {
+  height: 20px;
+  line-height: 20px;
+}
+.software-selection {
+  margin-bottom: 20px;
+  display: inline-block;
+}
+.page-title {
+  text-align: center;
+  border-bottom: 1px solid gray;
+  position: relative;
+}
+
+.img {
+  display: inline-block;
+  margin-left: 0 auto;
+  margin-right: 0 auto;
+  width: 10%;
+  padding: 5px;
+  border-radius: 10%;
+}
+.images {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.faqs-container .content {
+  margin-bottom: 5px;
+}
+
+.coverPhoto {
+  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
+#product-form {
+  display: block;
+  max-width: 500px;
+  margin: 0 auto;
+  background: rgb(248, 249, 250);
+  padding: 40px;
+  border-radius: 10px;
+}
+#product-form button {
+  height: 30px;
+  outline: 0;
+  border-radius: 5px;
+  background-color: #0d6efd;
+  color: #fff;
+  cursor: pointer;
+  border: none;
+}
+#product-form button:hover {
+  background-color: #0f5bcc;
+}
+.select-container {
+  margin-bottom: 20px;
+}
+.select-container label {
+  padding-bottom: 10px;
+  display: inline-block;
+}
+.select-container select {
+  width: 100%;
+  height: 30px;
+  border: 1px solid #333;
+  border-radius: 5px;
+}
+.select-container option {
+  height: 20px;
+  line-height: 20px;
+}
+.software-selection {
+  margin-bottom: 20px;
+  display: inline-block;
+}
+.page-title {
+  text-align: center;
+  border-bottom: 1px solid gray;
+}
+/*softwareupdate.html css*/
+
+/*FAQs.html css -- Abdurrahman Tufan Unal*/
+.faqs-container {
+  font-family: "Roboto", sans-serif;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.faqs-container .questions-container {
+  box-shadow: 0 4px 8px -3px rgba(0, 0, 0, 0.3);
+}
+
+.faqs-container h2 {
+  padding: 4px 32px;
+  font-size: 28px;
+}
+
+.faqs-container .faq-header {
+  display: flex;
+  background: rgb(248, 249, 250);
+  color: #000;
+  align-items: center;
+  position: relative;
+  cursor: pointer;
+}
+
+.faqs-container .faq-header .open,
+.faqs-container .faq-header .close {
+  position: absolute;
+  right: 0;
+  padding: 0 32px;
+  font-size: 22px;
+  font-weight: bold;
+  transform: translateY(-8px);
+  opacity: 0;
+  transition: all 500ms;
+}
+
+.faqs-container .faq-header .open.active,
+.faqs-container .faq-header .close.active {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.faqs-container .faq-header h3 {
+  font-size: 20px;
+  padding: 0 32px;
+}
+
+.faqs-container .content {
+  padding: 0 32px;
+  background: #fff;
+  line-height: 2;
+  max-height: 0;
+  overflow: hidden;
+  transition: all 500ms;
+}
+
+.faqs-container .content.active {
+  max-height: 600px;
+}
+
+.question {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+/*FAQs.html css ---*/
+

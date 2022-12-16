@@ -12,7 +12,6 @@
   <!-- Awesome Icons -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css" integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="css/custom.css">
-  <link rel="stylesheet" type="text/css" href="css/contact_form.css">
 </head>
 <body>
 <header>
@@ -45,7 +44,7 @@
             <a class="nav-link" href="FAQs.html">FAQs</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="SoftwareUpdate.html">Drivers</a>
+            <a class="nav-link" href="softwareupdate.html">Drivers</a>
           </li>
         </ul>
       </div>
@@ -53,7 +52,7 @@
   </nav>
   <!-- Navbar -->
 </header>
-
+<!--Page Container -->
 <div class="container content">
   <div class="row">
     <div class="col-lg">
@@ -78,20 +77,20 @@
           </select>
           </div>
            <div class="form-floating mb-2">
-              <input type="text" class="form-control" placeholder="First Name" required>
-              <label for="floatingInput">First Name</label>
+              <input id="i_first_name" type="text" class="form-control" placeholder="First Name" required>
+              <label for="i_first_name">First Name *</label>
             </div>
             <div class="form-floating mb-2">
-              <input type="text" class="form-control" placeholder="Last Name">
-              <label for="floatingInput">Last Name</label>
+              <input id="i_last_name" type="text" class="form-control" placeholder="Last Name" required>
+              <label for="i_last_name">Last Name *</label>
             </div>
             <div class="form-floating mb-2">
-              <input type="email" class="form-control" placeholder="Email">
-              <label for="floatingInput">Email</label>
+              <input id="i_email" type="email" class="form-control" placeholder="Email" required>
+              <label for="i_email">Email *</label>
             </div>
             <div class="form-floating mb-2">
-              <textarea class="form-control" placeholder="Leave a message here" id="floatingTextarea2" style="height: 100px"></textarea>
-              <label for="floatingTextarea2">Message</label>
+              <textarea class="form-control" placeholder="Leave a message here" id="floatingTextarea2" style="height: 100px" required></textarea>
+              <label for="floatingTextarea2">Message *</label>
             </div>
             <div class="form-floating mb-2">
               <button type="submit" class="btn btn-primary" onclick="validateForm()">Submit</button>
@@ -102,6 +101,7 @@
     </div>
 
   </div>
+  <!-- Boxes -->
   <div class="row bottom_box_container">
       <div class="col-md">
         <div class="bottom_box">
@@ -111,7 +111,7 @@
           <div class="bottom_box_content">
            <a href="FAQs.html"> <img src="images/contact_box1.png" alt="contact1" width="280"></a>
             <p>Helps about laptop details</p>
-            <p><a href="FAQs.html"> <button class="btn btn-primary">Questions</button></a></p>
+            <p><a href="FAQs.html" class="btn btn-primary">Questions</a></p>
           </div>
       </div>
       </div>
@@ -159,6 +159,6 @@
    <!--Bootstrap JavaScript Bundle with Popper -->
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
-  <script type="text/javascript" src="js/contact_form.js"></script>
+  <script src="js/contact_form.js"></script>
 </body>
 </html>
