@@ -1,0 +1,25 @@
+#product-form {
+	max-width: 700px !important;
+	background-color: white;
+}
+
+.select-container select
+{
+    height: 40px;
+
+}
+
+.content {
+	margin-bottom: 20px;
+	padding-bottom: 10px;
+}
+
+.page-title {
+	color: #4d1a1a;
+	font-family: monospace;
+}
+
+#product-form button
+{
+	background-color: #4d1a1a;
+}

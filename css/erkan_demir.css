@@ -1,0 +1,46 @@
+#product-form {
+	background-color: #c7d2e2 !important;
+	border: 1px solid #eee;
+	font-family: Tahoma;
+}
+
+.page-title {
+	font-size: 28px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	border-top: 1px solid #eee;
+	border-bottom: 0;
+	color: #fff;
+}
+
+h1 {
+	padding: 5px;
+}
+
+.img {
+	width: 8%;
+}
+
+#product-form button
+{
+	background-color: #3c567d;
+}
+
+#product-form button:hover
+{
+	background-color: #b1bac9;
+}
+
+.content{
+	background-color:#7e8ca6;
+	padding:15px;
+	border-radius: 10px;
+	margin-bottom: 60px;
+}
+
+.select-container select
+{
+    height: 35px;
+    border: 2px solid #7e8ca6;
+    border-radius: 5px;
+}

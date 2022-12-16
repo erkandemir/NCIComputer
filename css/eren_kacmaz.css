@@ -1,0 +1,19 @@
+#product-form {
+	background-color: #e6c64f !important;
+	border: 1px solid #eee;
+}
+
+.page-title {
+	font-size: 25px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	border-bottom: 1px solid #eee;
+}
+
+#product-form button
+{
+	background-color: #8c8c9a;
+	color: white;
+	height: 40px;
+	width: 120px;
+}

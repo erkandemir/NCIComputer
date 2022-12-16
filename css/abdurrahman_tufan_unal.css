@@ -1,0 +1,26 @@
+.images {
+	background-color: #fdffe7;
+	border: 1px solid #ddd;
+	border-radius: 10px;
+}
+
+.page-title {
+	font-size: 30px;
+	color: #756921;
+	border: 0px;
+	margin: 20px;
+}
+
+#product-form button
+{
+	background-color: #6b80aa;
+	color: white;
+	height: 40px;
+	width: 120px;
+}
+
+#product-form {
+	border: 1px dashed #a5ade5;
+	color: #6b80aa;
+	background-color: #e1e6f2;
+}
